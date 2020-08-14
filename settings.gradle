@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "JoBook_Log in&sign"
