@@ -1,3 +1,46 @@
 <resources>
     <string name="app_name">JoBook</string>
+    <string name="title">My Application</string>
+    <string name="RecentApplications">Recently Submitted</string>
+    <string name="positionName">Position: </string>
+    <string name="company">Hired By: </string>
+    <string name="VacancyDate">Closing Date: </string>
+    <string name="VacancyStatus">Vacancy Status: </string>
+    <string name="AddNew">Add</string>
+    <string name="Help_Support">Help and Support</string>
+
+    <string name="UserTitle">User Dashboard</string>
+    <string name="user_profile_Txt">Profile</string>
+    <string name="user_myApplication">My Applications</string>
+    <string name="user_bookmarks">Bookmarks</string>
+    <string name="user_interestedTxt">Interested</string>
+    <string name="LogOut_txt">Log Out</string>
+
+    <string name="Title2">My Bookmarks</string>
+    <string name="Recent">Recently Bookmarked</string>
+    <string name="NeedHelp">Need Help?</string>
+
+    <string name="dateex">05/08/2020</string>
+    <string name="statusExample">In progress</string>
+
+    <string name="JobTitle1">Senior Software Engineer</string>
+    <string name="JobTitle2">HR Manager</string>
+    <string name="JobTitle3">Finance Assistant</string>
+    <string name="JobTitle4">Senior Executive Manager</string>
+    <string name="JobCompany">IFS Pvt Ltd.</string>
+    <string name="JobCompany2">Sanasa Development Bank</string>
+    <string name="JobCompany3">Virtusa Pvt Ltd.</string>
+    <string name="JobCompany4">Zeebra Technologies</string>
+    <string name="JobCompany5">John Kheels Pvt Ltd.</string>
+    <string name="InterestedTitle">Interested List</string>
+    <string name="Username">Username</string>
+    <string name="Email">sample@gmail.com</string>
+    <string name="Logout">Logout</string>
+    <string name="password">*******</string>
+    <string name="Newpassword">New Password</string>
+    <string name="Confirmpassword">Confirm Password</string>
+    <string name="title5Edit">Edit Your Info.</string>
+    <string name="edit">Edit</string>
+
+
 </resources>
