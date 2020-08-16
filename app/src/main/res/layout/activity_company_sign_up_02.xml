@@ -11,9 +11,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout02"
-        android:layout_width="match_parent"
-        android:layout_height="192dp"
-        android:background="@drawable/background"
+        style="@style/layout_style"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -24,7 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="6dp"
             android:layout_marginBottom="5dp"
-            android:text="Join with us"
+            android:text="@string/Join_with_us"
             android:textColor="#FFFFFF"
             android:textSize="46sp"
             android:textStyle="bold|italic"
@@ -144,13 +142,9 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="93dp"
-        android:layout_height="39dp"
+        style="@style/normal_btn"
         android:layout_marginBottom="10dp"
-        android:background="#000000"
-        android:text="Create"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold"
+        android:text="@string/Create"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.529"

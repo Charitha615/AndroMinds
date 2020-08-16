@@ -9,9 +9,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout01"
-        android:layout_width="match_parent"
-        android:layout_height="192dp"
-        android:background="@drawable/background"
+        style="@style/layout_style"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -22,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="6dp"
             android:layout_marginBottom="5dp"
-            android:text="Join with us"
+            android:text="@string/Join_with_us"
             android:textColor="#FFFFFF"
             android:textSize="46sp"
             android:textStyle="bold|italic"
@@ -137,7 +135,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="414dp"
-        android:text="Password"
+        android:text="@string/Password"
         android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -159,15 +157,11 @@
 
     <Button
         android:id="@+id/Next_btn01"
-        android:layout_width="93dp"
-        android:layout_height="39dp"
+        style="@style/normal_btn"
         android:layout_marginStart="155dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="163dp"
-        android:background="#000000"
         android:text="Next"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -176,12 +170,10 @@
 
     <TextView
         android:id="@+id/Already_btn01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/blue_style"
         android:layout_marginBottom="4dp"
         android:clickable="true"
-        android:text="Already Have an Account?"
-        android:textColor="#2059ED"
+        android:text="@string/Already_account"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

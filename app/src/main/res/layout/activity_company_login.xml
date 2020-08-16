@@ -9,9 +9,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout45"
-        android:layout_width="match_parent"
-        android:layout_height="192dp"
-        android:background="@drawable/background"
+        style="@style/layout_style"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -20,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="37dp"
-            android:text="Log In"
+            android:text="@string/Log_IN"
             android:textColor="#FFFFFF"
             android:textSize="70dp"
             android:textStyle="bold"
@@ -83,7 +81,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="184dp"
-        android:text="Password"
+        android:text="@string/Password"
         android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -91,14 +89,10 @@
 
     <Button
         android:id="@+id/button1sada"
-        android:layout_width="93dp"
-        android:layout_height="39dp"
+        style="@style/normal_btn"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="164dp"
-        android:background="#000000"
-        android:text="Sign In"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold"
+        android:text="@string/Sign_In_btn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -106,24 +100,20 @@
 
     <TextView
         android:id="@+id/textView4sdw"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/blue_style"
         android:layout_marginBottom="77dp"
-        android:text="Forgot Password?"
-        android:textColor="#2059ED"
+        android:text="@string/Forgot_Password"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/Com_create_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/create_account_style"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="37dp"
         android:clickable="true"
         android:text="Create an Account"
-        android:textColor="#11CFC5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"

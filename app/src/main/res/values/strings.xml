@@ -1,3 +1,27 @@
 <resources>
-    <string name="app_name">JoBook</string>
+    <string name="app_name">JoBank</string>
+
+    <string name="Submit_Application_btn">Submit Application</string>
+    <string name="Upload_CV_btn">Upload CV</string>
+    <string name="Company_name">Senior Software Engineer</string>
+
+
+    <string name="Log_IN">Log In</string>
+    <string name="Sign_In_btn">Sign In</string>
+
+
+    <string name="Join_with_us">Join with us</string>
+    <string name="Already_account">Already Have an Account?</string>
+
+    <string name="App_description">Get connected with as you want to our job network</string>
+    <string name="Welcome">Welcome</string>
+    <string name="Forgot_Password">Forgot Password?</string>
+    <string name="Password">Password</string>
+    <string name="Create">Create</string>
+
+
+
+
+
+
 </resources>
