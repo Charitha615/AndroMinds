@@ -113,15 +113,13 @@
 
         <Button
             android:id="@+id/button7"
-            android:layout_width="203dp"
-            android:layout_height="50dp"
+            style="@style/publish_vacancy_button"
             android:background="@drawable/rounded_corners4"
-            android:text="@string/job_button_1" />
+            android:text="Software Engineer" />
 
         <TextView
             android:id="@+id/textView29"
-            android:layout_width="181dp"
-            android:layout_height="35sp"
+            style="@style/job_posted_date"
             android:text="@string/Date_date" />
 
     </LinearLayout>
@@ -144,15 +142,13 @@
 
         <Button
             android:id="@+id/button8"
-            android:layout_width="213dp"
-            android:layout_height="wrap_content"
+            style="@style/publish_vacancy_button"
             android:background="@drawable/rounded_corners4"
-            android:text="@string/job_button_2" />
+            android:text="HR Manager" />
 
         <TextView
             android:id="@+id/textView48"
-            android:layout_width="match_parent"
-            android:layout_height="35sp"
+            style="@style/job_posted_date"
             android:text="@string/Date_date" />
 
     </LinearLayout>
@@ -174,15 +170,13 @@
 
         <Button
             android:id="@+id/button15"
-            android:layout_width="213dp"
-            android:layout_height="wrap_content"
+            style="@style/publish_vacancy_button"
             android:background="@drawable/rounded_corners4"
-            android:text="@string/job_button_3" />
+            android:text="Network Engineer" />
 
         <TextView
             android:id="@+id/textView38"
-            android:layout_width="match_parent"
-            android:layout_height="35sp"
+            style="@style/job_posted_date"
             android:text="@string/Date_date" />
 
         <TextView
@@ -209,15 +203,13 @@
 
         <Button
             android:id="@+id/button17"
-            android:layout_width="213dp"
-            android:layout_height="wrap_content"
+            style="@style/publish_vacancy_button"
             android:background="@drawable/rounded_corners4"
-            android:text="@string/job_button_4" />
+            android:text="Pre-School Assistant Teacher" />
 
         <TextView
             android:id="@+id/textView39"
-            android:layout_width="match_parent"
-            android:layout_height="35sp"
+            style="@style/job_posted_date"
             android:text="@string/Date_date" />
     </LinearLayout>
 
@@ -235,22 +227,19 @@
 
         <Button
             android:id="@+id/button18"
-            android:layout_width="213dp"
-            android:layout_height="wrap_content"
+            style="@style/publish_vacancy_button"
             android:background="@drawable/rounded_corners4"
-            android:text="@string/job_button_5" />
+            android:text="Graphic Designer" />
 
         <TextView
             android:id="@+id/textView26"
-            android:layout_width="180dp"
-            android:layout_height="35sp"
+            style="@style/job_posted_date"
             android:text="@string/Date_date" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/textView42"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/applicant_no_txtbox"
         android:layout_marginStart="16dp"
         android:layout_marginTop="160dp"
         android:layout_marginEnd="10dp"
@@ -262,8 +251,7 @@
 
     <TextView
         android:id="@+id/textView43"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/applicant_no_txtbox"
         android:layout_marginStart="16dp"
         android:layout_marginTop="367dp"
         android:layout_marginEnd="10dp"
@@ -276,8 +264,7 @@
 
     <TextView
         android:id="@+id/textView45"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/applicant_no_txtbox"
         android:layout_marginStart="16dp"
         android:layout_marginTop="570dp"
         android:layout_marginEnd="10dp"
@@ -289,8 +276,7 @@
 
     <TextView
         android:id="@+id/textView47"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/applicant_no_txtbox"
         android:layout_marginStart="16dp"
         android:layout_marginTop="475dp"
         android:layout_marginEnd="10dp"
@@ -302,8 +288,7 @@
 
     <TextView
         android:id="@+id/textView44"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/applicant_no_txtbox"
         android:layout_marginStart="16dp"
         android:layout_marginTop="262dp"
         android:layout_marginEnd="10dp"
@@ -316,20 +301,18 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="38dp"
-        android:layout_height="52dp"
+        style="@style/view_more_button"
         android:layout_marginStart="16dp"
         android:layout_marginTop="148dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView42"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dot" />
+        app:srcCompat="@drawable/dot"/>
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="38dp"
-        android:layout_height="52dp"
+        style="@style/view_more_button"
         android:layout_marginStart="16dp"
         android:layout_marginTop="252dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -339,8 +322,7 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="38dp"
-        android:layout_height="52dp"
+        style="@style/view_more_button"
         android:layout_marginStart="16dp"
         android:layout_marginTop="356dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -350,8 +332,7 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="38dp"
-        android:layout_height="52dp"
+        style="@style/view_more_button"
         android:layout_marginStart="16dp"
         android:layout_marginTop="556dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -361,8 +342,7 @@
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="38dp"
-        android:layout_height="52dp"
+        style="@style/view_more_button"
         android:layout_marginStart="16dp"
         android:layout_marginTop="460dp"
         app:layout_constraintEnd_toEndOf="parent"

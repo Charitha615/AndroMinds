@@ -89,14 +89,11 @@
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="401dp"
-        android:layout_height="38dp"
+        style="@style/job_main_title"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:text="@string/edit_vacancy_title_1"
         android:textAlignment="center"
-        android:textSize="30dp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -119,13 +116,13 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="162dp"
-        android:layout_height="47dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="536dp"
         android:background="@drawable/rounded_corners"
         android:text="Close Vacancy"
-        android:textColorHighlight="#DC0505"
+        android:layout_width="162dp"
+        android:layout_height="47dp"
+        android:textColorHighlight="#01092C"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="parent"
@@ -133,8 +130,8 @@
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="124dp"
-        android:layout_height="46dp"
+        android:layout_width="162dp"
+        android:layout_height="47dp"
         android:layout_marginTop="596dp"
         android:background="@drawable/rounded_corners"
         android:text="View Lists"
@@ -185,7 +182,7 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="260dp"
         android:text="@string/qualificationText"
         app:layout_constraintStart_toStartOf="parent"

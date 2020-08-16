@@ -10,17 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".CompanyDashboard"></activity>
-        <activity android:name=".view_vacancy" />
         <activity android:name=".PublishVacancy" />
+        <activity android:name=".edit_vacancy" />
         <activity android:name=".UserDashboard" />
-        //<activity android:name=".edit_vacancy" />
+        <activity android:name=".View_Published_Vacancies" />
         <activity android:name=".Welcome_MainActivity3" />
         <activity android:name=".Company_signUp_02" />
         <activity android:name=".Company_signUp" />
         <activity android:name=".Company_login" />
         <activity android:name=".MainActivity" />
         <activity android:name=".MainActivity2" />
-        <activity android:name=".View_Published_Vacancies">
+        <activity android:name=".view_vacancy">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

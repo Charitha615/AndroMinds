@@ -108,7 +108,7 @@
         android:background="@drawable/rounded_corners2"
         android:drawableTop="@drawable/company"
         android:paddingTop="15sp"
-        android:text="Profile"
+        android:text="@string/company_profile_Txt"
         android:textAlignment="center"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -122,7 +122,7 @@
         android:background="@drawable/rounded_corners2"
         android:drawableTop="@drawable/jobs"
         android:paddingTop="15sp"
-        android:text="Vacancies"
+        android:text="@string/company_vacancy_Txt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -135,7 +135,7 @@
         android:background="@drawable/rounded_corners2"
         android:drawableTop="@drawable/redbook"
         android:paddingTop="15sp"
-        android:text="Saved"
+        android:text="@string/company_saved_Txt"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button301" />
 
@@ -148,7 +148,7 @@
         android:background="@drawable/rounded_corners2"
         android:drawableTop="@drawable/plus"
         android:paddingTop="15sp"
-        android:text="Add Vacancy"
+        android:text="@string/company_addVacancy_Txt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button901" />
 
@@ -161,7 +161,7 @@
         android:drawableRight="@drawable/logout"
         android:paddingTop="5sp"
         android:paddingRight="35sp"
-        android:text="LogOut"
+        android:text="@string/LogOut_txt"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
