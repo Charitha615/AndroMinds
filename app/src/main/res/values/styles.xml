@@ -7,4 +7,44 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="buttons_examine_applicants">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#000000</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="buttons2_examine_applicants">
+        <item name="android:layout_width">143dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">#66d9f0</item>
+    </style>
+
+    <style name="txtview_examine_applicants">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="pointboxes_examine_applicants">
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">42dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingTop">10dp</item>
+    </style>
+
+    <style name="name_com_interested">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="date_com_interested">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
 </resources>

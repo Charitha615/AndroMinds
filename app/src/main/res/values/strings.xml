@@ -1,3 +1,51 @@
 <resources>
-    <string name="app_name">JoBook</string>
+    <string name="app_name">JobBank</string>
+    <string name="JobTitle">Job Title</string>
+    <string name="ApplicantName">Sample Name Jagath</string>
+    <string name="Status">Initial Status</string>
+    <string name="AppliedDate">22-08-2020</string>
+    <string name="Phone">0778989654</string>
+    <string name="Email">Email</string>
+    <string name="Age">Age</string>
+    <string name="Experience">Experience</string>
+    <string name="Description">Description</string>
+    <string name="Qualifications">Qualifications</string>
+    <string name="SetStatus">Set Status To</string>
+
+    <string name="Company_Location">12/34B, Highlevel Rd., Nugegoda.</string>
+    <string name="Company_Phone">+94 112 987 987</string>
+    <string name="Company_Email">company.email@gmail.com</string>
+
+    <string name="display_VISION">Create economic opportunity for every member of the global workforce. </string>
+    <string name="display_MISSION">Create economic opportunity for every member of the global workforce. </string>
+
+    <string name="btn_CV">Open CV</string>
+    <string name="btn_Total">Calculate Total</string>
+    <string name="btn_Interview">Interview</string>
+    <string name="btn_Pending">Pending</string>
+    <string name="btn_Rejected">Rejected</string>
+
+    <string name="txt_Viewed">Viewed</string>
+    <string name="txt_Vacancies">Vacancies</string>
+    <string name="txt_Bookmarked">Bookmarked</string>
+    <string name="txt_Interested">Interested</string>
+
+    <string name="txt_Departments">Departments</string>
+    <string name="txt_Employees">Employees</string>
+
+    <string name="txt_VISION">Our Vision</string>
+    <string name="txt_MISSION">Our Mission</string>
+
+    <string name="Interview_List">Interview List</string>
+    <string name="Pending_List">Pending List</string>
+    <string name="Rejected_List">Rejected List</string>
+
+    <string name="btn_editprofile">Edit Profile</string>
+    <string name="txt_bookmark">Bookmarks</string>
+    <string name="txt_toprevious">Back</string>
+
+    <string name="Points">00</string>
+    <string name="txt_CompanyName">Company Name Pvt Ltd</string>
+    <string name="txt_slogan">"We care Always..!!"</string>
+
 </resources>
